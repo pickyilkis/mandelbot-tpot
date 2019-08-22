@@ -1,4 +1,4 @@
-FROM mandelbot/base
+FROM mandelbot/base:0.5
 
 COPY . .
 RUN pip install gunicorn
